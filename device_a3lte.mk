@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml \
     $(LOCAL_PATH)/configs/media_codecs.xml:system/etc/media_codecs.xml
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    fstab.qcom
+
 # Wifi
 PRODUCT_PACKAGES += \
     wcnss_service
